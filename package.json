@@ -6,17 +6,29 @@
   "types": "dist/src/index.d.ts",
   "author": "Ata Ul Haleem <ataulhaleem@gmail.com>",
   "license": "MIT",
-  "files": ["dist", "data"],
+  "files": [
+    "dist",
+    "data"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ataulhaleem/rf-rdis.git"
   },
-  "keywords": ["FAIRagro", "RDI", "datasets", "FAIR", "agronomy"],
+  "keywords": [
+    "FAIRagro",
+    "RDI",
+    "datasets",
+    "FAIR",
+    "agronomy"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^9.0.1"
   }
 }
