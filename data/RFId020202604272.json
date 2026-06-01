@@ -641,7 +641,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "no"
+                                                "value": "yes"
                                             },
                                             "authenticationType": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
@@ -653,7 +653,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "no"
                                             },
                                             "dataAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
@@ -715,7 +715,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "na"
+                                                "value": "yes"
                                             },
                                             "communityStandards": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",

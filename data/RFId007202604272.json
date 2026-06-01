@@ -885,7 +885,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "na"
                                             },
                                             "richMetadata": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",

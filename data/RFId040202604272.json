@@ -186,7 +186,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataProvider",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Staatliche Archive Bayern"
+                                        "value": "#REF!"
                                     },
                                     "instituteType": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",

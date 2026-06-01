@@ -931,7 +931,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "no"
                                             },
                                             "authenticationType": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",

@@ -20,13 +20,27 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Dr. Sara Espinoza"
+                                    "value": "Höchstleistungsrechenzentrum Stuttgart"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Repo4Cat"
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "NFDI4Cat"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
                                 }
                             }
                         ]
@@ -41,13 +55,13 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Dr. Sara Espinoza"
+                                    "value": "no-email-available"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "sara.espinoza@dechema.de"
+                                    "value": "no-email-available@repository.net"
                                 }
                             }
                         ]
@@ -62,7 +76,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "This Central Platform brings everything together in one place – a hub where research can be shared, discovered, and advanced collaboratively. It enables researchers to make their work visible, find relevant information and tools, and connect with others."
+                                    "value": "Repository for data, publications, and documentation of research from catalysis science."
                                 }
                             }
                         ]
@@ -72,14 +86,26 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
-                            "Chemistry"
+                            "Other"
                         ]
                     },
                     {
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025"
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2026-04-17"
                     }
                 ]
             },
@@ -95,13 +121,21 @@
                                 "typeName": "MDS_fairagro.re3Data.orgIdentifier",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "RFId076202604272"
+                                "value": "r3d100014668"
                             },
                             "repositoryName": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryName",
                                 "multiple": false,
                                 "typeClass": "primitive",
                                 "value": "Repo4Cat"
+                            },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "NFDI4Cat Central Data Repository"
+                                ]
                             },
                             "repositoryURL": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryURL",
@@ -113,22 +147,56 @@
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "This Central Platform brings everything together in one place – a hub where research can be shared, discovered, and advanced collaboratively. It enables researchers to make their work visible, find relevant information and tools, and connect with others."
+                                "value": "Repository for data, publications, and documentation of research from catalysis science."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "https://nfdi4cat.org/en/Footer/Contact.html"
+                                ]
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "unspecified"
+                                    "disciplinary"
                                 ]
                             },
-                            "subject": {
-                                "typeName": "MDS_fairagro.re3Data.subject",
+                            "size": {
+                                "typeName": "MDS_fairagro.re3Data.size",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "24 dataverses; 108 datasets; 1.670 files"
+                            },
+                            "startDate": {
+                                "typeName": "MDS_fairagro.re3Data.startDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2025"
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "Chemistry"
+                                    "eng"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://nfdi4cat.org/en/Services/Repo4Cat.html"
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider"
                                 ]
                             },
                             "keyword": {
@@ -136,10 +204,60 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
+                                    "NFDI",
                                     "NFDI4Cat",
-                                    "Engineering Sciences",
-                                    "Chemistry"
+                                    "catalysis"
                                 ]
+                            },
+                            "versioning": {
+                                "typeName": "MDS_fairagro.re3Data.versioning",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "pidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.pidSystem",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "hdl"
+                                ]
+                            },
+                            "citationGuidelineURL": {
+                                "typeName": "MDS_fairagro.re3Data.citationGuidelineURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://dataverse.org/best-practices/data-citation"
+                            },
+                            "aidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.aidSystem",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "ORCID"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2025-07-30"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2026-04-17"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -151,27 +269,219 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "DECHEMA"
+                                            "value": "Höchstleistungsrechenzentrum Stuttgart"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "HLRS",
+                                                "High Performance Computing Center Stuttgart"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.hlrs.de/de/"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "NFDI4Cat"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "NFDI for Catalysis-Related Sciences"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://nfdi4cat.org/"
                                         }
                                     }
                                 ]
                             },
-                            "databaseLicense": {
-                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
                                     {
-                                        "databaseLicenseName": {
-                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "NFDI4Cat Privacy"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://nfdi4cat.org/en/privacy.html"
+                                        }
+                                    },
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Terms of Use"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://repository.nfdi4cat.org/terms-of-use.html"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/licenses/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "institutional membership"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "software": {
+                                "typeName": "MDS_fairagro.re3Data.software",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "softwareName": {
+                                            "typeName": "MDS_fairagro.re3Data.software.softwareName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Dataverse"
                                         }
                                     }
                                 ]
                             }
                         }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId076202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.fairagroData",
@@ -193,7 +503,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "dataProvider"
                                     },
                                     "complianceMeasures": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
@@ -217,7 +527,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "open"
                                     },
                                     "embargoPeriod": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
@@ -247,7 +557,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "None"
+                                                "value": "Other PID"
                                             }
                                         }
                                     },
@@ -297,7 +607,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "Dataverse"
+                                                ]
                                             },
                                             "updateFrequency": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
@@ -378,7 +690,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "no"
                                             },
                                             "dataAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
@@ -440,7 +752,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "na"
+                                                "value": "yes"
                                             },
                                             "communityStandards": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
@@ -533,12 +845,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "typeName": "MDS_fairagro.identifier",
-                        "multiple": false,
-                        "typeClass": "primitive",
-                        "value": "RFId076202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.collections",

@@ -8,7 +8,7 @@
                         "typeName": "title",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "Preclinical Image Dataset Repository"
+                        "value": "Preclinical Image DAtaset Repository"
                     },
                     {
                         "typeName": "author",
@@ -20,13 +20,55 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "EuroBioImaging - ERIC Research Infrastructure"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Preclinical Image Dataset Repository"
+                                    "value": "FIN"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Institute of Biostructure and Bioimaging"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ITA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "National Research Council of Italy"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ITA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Turin"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ITA"
                                 }
                             }
                         ]
@@ -41,13 +83,27 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "dariolivio.longo"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "preclinicaldata@eurobioimaging.eu"
+                                    "value": "dariolivio.longo@cnr.it"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "preclinicalimaging"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "preclinicalimaging@eurobioimaging.eu"
                                 }
                             }
                         ]
@@ -62,7 +118,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "PIDAR is an open-access repository that catalogs detailed structural metadata for preclinical animal imaging datasets (across modalities like CT, MRI, PET, SPECT, and Ultrasound) linked to peer-reviewed publications. It provides a specialized data model to organize, discover, and share preclinical research according to strict FAIR principles."
+                                    "value": "The Preclinical Image DAtaset Repository (PIDAR) is a public repository of metadata information of preclinical image datasets from any imaging modality associated to peer-review publications. The metadata information are organized in a proper schema to create a standard metadata model for preclinical imaging."
                                 }
                             }
                         ]
@@ -72,14 +128,27 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
-                            "Medicine, Health and Life Sciences"
+                            "Medicine, Health and Life Sciences",
+                            "Other"
                         ]
                     },
                     {
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2022"
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-08-09"
                     }
                 ]
             },
@@ -95,32 +164,78 @@
                                 "typeName": "MDS_fairagro.re3Data.orgIdentifier",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "RFId054202604272"
+                                "value": "r3d100014212"
                             },
                             "repositoryName": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryName",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "Preclinical Image Dataset Repository"
+                                "value": "Preclinical Image DAtaset Repository"
+                            },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "PIDAR"
+                                ]
                             },
                             "repositoryURL": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryURL",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "https://pidar.hpc4ai.unito.it/Datasets/Index"
+                                "value": "https://pidar.hpc4ai.unito.it/"
+                            },
+                            "repositoryIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryIdentifier",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "10.25504/FAIRsharing.f64055"
+                                ]
                             },
                             "description": {
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "PIDAR is an open-access repository that catalogs detailed structural metadata for preclinical animal imaging datasets (across modalities like CT, MRI, PET, SPECT, and Ultrasound) linked to peer-reviewed publications. It provides a specialized data model to organize, discover, and share preclinical research according to strict FAIR principles."
+                                "value": "The Preclinical Image DAtaset Repository (PIDAR) is a public repository of metadata information of preclinical image datasets from any imaging modality associated to peer-review publications. The metadata information are organized in a proper schema to create a standard metadata model for preclinical imaging."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dariolivio.longo@cnr.it",
+                                    "preclinicalimaging@eurobioimaging.eu"
+                                ]
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "unspecified"
+                                    "disciplinary",
+                                    "institutional"
+                                ]
+                            },
+                            "size": {
+                                "typeName": "MDS_fairagro.re3Data.size",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "14 datasets; 308 subjects;  195 metadata"
+                            },
+                            "startDate": {
+                                "typeName": "MDS_fairagro.re3Data.startDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2022"
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
                                 ]
                             },
                             "subject": {
@@ -128,7 +243,35 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "Life Sciences"
+                                    "2 Life Sciences",
+                                    "205 Medicine",
+                                    "20502 Public Health, Health Services Research, Social Medicine",
+                                    "22 Medicine"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://pidar.hpc4ai.unito.it/about-us.php"
+                            },
+                            "contentType": {
+                                "typeName": "MDS_fairagro.re3Data.contentType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Databases",
+                                    "Images",
+                                    "Standard office documents",
+                                    "Structured text"
+                                ]
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider"
                                 ]
                             },
                             "keyword": {
@@ -136,10 +279,43 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "NFDI4BIOIMAGE",
-                                    "Life Sciences",
-                                    "Life Sciences"
+                                    "FAIR",
+                                    "animal",
+                                    "dataset",
+                                    "disease",
+                                    "imaging",
+                                    "preclinical"
                                 ]
+                            },
+                            "versioning": {
+                                "typeName": "MDS_fairagro.re3Data.versioning",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2023-07-12"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2024-08-09"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -151,27 +327,313 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "Institute of Biostructures and Bioimaging (IBB-CNR), Italy"
+                                            "value": "EuroBioImaging - ERIC Research Infrastructure"
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "FIN"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.eurobioimaging.eu/"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Institute of Biostructure and Bioimaging"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "IBB",
+                                                "Istituto di Biostrutture e Bioimmagini"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "ITA"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "http://www.ibb.cnr.it/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:03rqtqb02"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "National Research Council of Italy"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "CNR",
+                                                "Consiglio Nazionale delle Ricerche"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "ITA"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.cnr.it"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:04zaypm56"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "University of Turin"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "Università di Torino"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "ITA"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.unito.it/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:048tbm396",
+                                                "RRID:SCR_017007"
+                                            ]
                                         }
                                     }
                                 ]
                             },
-                            "databaseLicense": {
-                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
                                     {
-                                        "databaseLicenseName": {
-                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "Legal notes"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://en.unito.it/legal-notes"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/licenses/by/4.0/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "other"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUploadLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataUploadLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Submission of datasets to PIDAR"
+                                        },
+                                        "dataUploadLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://pidar.hpc4ai.unito.it/submit.php"
                                         }
                                     }
                                 ]
                             }
                         }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId054202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.fairagroData",
@@ -193,7 +655,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "dataProvider"
                                     },
                                     "complianceMeasures": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
@@ -205,7 +667,12 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
                                         "multiple": true,
                                         "typeClass": "primitive",
-                                        "value": []
+                                        "value": [
+                                            "Databases",
+                                            "Images",
+                                            "Standard office documents",
+                                            "Structured text"
+                                        ]
                                     },
                                     "applicableRegulations": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
@@ -217,7 +684,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "open"
                                     },
                                     "embargoPeriod": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
@@ -378,7 +845,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "no"
                                             },
                                             "dataAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
@@ -403,7 +870,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "True"
+                                                ]
                                             },
                                             "qualifiedReferences": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
@@ -415,7 +884,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "True"
+                                                ]
                                             },
                                             "apiAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
@@ -440,13 +911,13 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "na"
+                                                "value": "yes"
                                             },
                                             "communityStandards": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "no"
+                                                "value": "yes"
                                             },
                                             "documentationQuality": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
@@ -533,12 +1004,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "typeName": "MDS_fairagro.identifier",
-                        "multiple": false,
-                        "typeClass": "primitive",
-                        "value": "RFId054202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.collections",

@@ -20,13 +20,153 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "Berlin Institute of Health at Charité - Universitätsmedizin Berlin"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Health Study Hub"
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deutsche Forschungsgemeinschaft"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Fraunhofer Institute for Digital Medicine"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Heidelberg Institute for Theoretical Studies"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "KKS-Netzwerk e.V."
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Leibniz Institute for Prevention Research and Epidemiology - BIPS"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Robert Koch Institute"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "University of Leipzig,Medical Faculty;  Institute for Medical Informatics, Statistics and Epidemiology"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Universitätsmedizin Greifswald"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Universitätsmedizin Göttingen"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "ZB MED — Information Centre for Life Sciences"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
                                 }
                             }
                         ]
@@ -41,7 +181,35 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "contact"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "contact@nfdi4health.de"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "helpdesk"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "helpdesk@nfdi4health.de"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "helpdesk"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
@@ -62,7 +230,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "The Health Study Hub (health-study-hub.de) is a specialized national inventory and repository platform built to make German research data from clinical trials, public health, and epidemiological studies comply with FAIR data principles."
+                                    "value": "The Health Study Hub is an inventory of German studies in the field of clinical, public health and epidemiological health research. The aim of the Health Study Hub is to enable and foster the implementation of the FAIR principles (Findability, Accessibility, Interoperability and Reusability) in the health domain. Unlike other initiatives, the Health Study Hub focuses not only on clinical research, but also on public health studies. The Health Study Hub also provides access to study materials such as (sample) questionnaires, data dictionaries and other information down to variable level. At the heart of the hub is a metadata model, which is part of the publication policy available here.\nThe content of the Health Study Hub consists of quality-assured submission by users, either via a registration form or an application programming interface. Submission and storage is free to anyone after initial account registration. In addition, data stewards actively collect available information from (public) sources. Furthermore, this platform aggregates and harmonises information already entered in different public repositories in order to provide a holistic view of the German research landscape in the aforementioned research areas. The date and time of the last data modification is displayed at the bottom of the screen.\nAs the platform is being developed for the community, it must meet the needs and requirements of the community. To ensure this, we are working closely with domain experts within the NFDI4Health project who represent communities of interest. However, we also invite everyone else to suggest features, ideas, requirements and report bugs to the development team. You can do this by sending us an email or by using the blue feedback box on the right side of the screen. We are constantly expanding and improving the Health Study Hub, information on past and future releases can be found here. The bottom of the screen also displays information about the current software and metadata version.\nMore information about the service and the project is available on our project website."
                                 }
                             }
                         ]
@@ -72,14 +240,27 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
-                            "Medicine, Health and Life Sciences"
+                            "Medicine, Health and Life Sciences",
+                            "Other"
                         ]
                     },
                     {
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2020-10-01"
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-06-26"
                     }
                 ]
             },
@@ -95,7 +276,7 @@
                                 "typeName": "MDS_fairagro.re3Data.orgIdentifier",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "RFId060202604272"
+                                "value": "r3d100013596"
                             },
                             "repositoryName": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryName",
@@ -113,14 +294,44 @@
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "The Health Study Hub (health-study-hub.de) is a specialized national inventory and repository platform built to make German research data from clinical trials, public health, and epidemiological studies comply with FAIR data principles."
+                                "value": "The Health Study Hub is an inventory of German studies in the field of clinical, public health and epidemiological health research. The aim of the Health Study Hub is to enable and foster the implementation of the FAIR principles (Findability, Accessibility, Interoperability and Reusability) in the health domain. Unlike other initiatives, the Health Study Hub focuses not only on clinical research, but also on public health studies. The Health Study Hub also provides access to study materials such as (sample) questionnaires, data dictionaries and other information down to variable level. At the heart of the hub is a metadata model, which is part of the publication policy available here.\nThe content of the Health Study Hub consists of quality-assured submission by users, either via a registration form or an application programming interface. Submission and storage is free to anyone after initial account registration. In addition, data stewards actively collect available information from (public) sources. Furthermore, this platform aggregates and harmonises information already entered in different public repositories in order to provide a holistic view of the German research landscape in the aforementioned research areas. The date and time of the last data modification is displayed at the bottom of the screen.\nAs the platform is being developed for the community, it must meet the needs and requirements of the community. To ensure this, we are working closely with domain experts within the NFDI4Health project who represent communities of interest. However, we also invite everyone else to suggest features, ideas, requirements and report bugs to the development team. You can do this by sending us an email or by using the blue feedback box on the right side of the screen. We are constantly expanding and improving the Health Study Hub, information on past and future releases can be found here. The bottom of the screen also displays information about the current software and metadata version.\nMore information about the service and the project is available on our project website."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "contact@nfdi4health.de",
+                                    "helpdesk@nfdi4health.de",
+                                    "helpdesk@nfdi4health.de"
+                                ]
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "unspecified"
+                                    "disciplinary"
+                                ]
+                            },
+                            "size": {
+                                "typeName": "MDS_fairagro.re3Data.size",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "43,868 resources"
+                            },
+                            "startDate": {
+                                "typeName": "MDS_fairagro.re3Data.startDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2020-10-01"
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
                                 ]
                             },
                             "subject": {
@@ -128,7 +339,37 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "Life Sciences"
+                                    "2 Life Sciences",
+                                    "205 Medicine",
+                                    "20501 Epidemiology, Medical Biometry, Medical Informatics",
+                                    "20502 Public Health, Health Services Research, Social Medicine",
+                                    "20513 Pneumology, Clinical Infectiology Intensive Care Medicine",
+                                    "22 Medicine"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.nfdi4health.de/en/service/health-study-hub.html"
+                            },
+                            "contentType": {
+                                "typeName": "MDS_fairagro.re3Data.contentType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Plain text",
+                                    "Standard office documents",
+                                    "Structured text"
+                                ]
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider",
+                                    "serviceProvider"
                                 ]
                             },
                             "keyword": {
@@ -136,10 +377,68 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "NFDI4Health",
-                                    "Life Sciences",
-                                    "Life Sciences"
+                                    "COVID-19",
+                                    "FAIR",
+                                    "SARS-CoV-2",
+                                    "clinical studies",
+                                    "epidemiology",
+                                    "health data",
+                                    "nfdi",
+                                    "nfdi4health",
+                                    "public health",
+                                    "study registry",
+                                    "survey instruments"
                                 ]
+                            },
+                            "versioning": {
+                                "typeName": "MDS_fairagro.re3Data.versioning",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "pidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.pidSystem",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DOI"
+                                ]
+                            },
+                            "aidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.aidSystem",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "ORCID"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "remarks": {
+                                "typeName": "MDS_fairagro.re3Data.remarks",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "Further information on API: https://health-study-hub.de/doc/api"
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2021-06-30"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2025-06-26"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -151,27 +450,869 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "ZB MED – Information Centre for Life Sciences"
+                                            "value": "Berlin Institute of Health at Charité - Universitätsmedizin Berlin"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "BIH"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.bihealth.org/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:0493xsw21"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Deutsche Forschungsgemeinschaft"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "DFG",
+                                                "German Research Foundation"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.dfg.de/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:018mejw64",
+                                                "RRID:SCR_012420"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Fraunhofer Institute for Digital Medicine"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "Fraunhofer-Institut für Digitale Medizin MEVIS",
+                                                "MEVIS"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.mevis.fraunhofer.de/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:04farme71"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Heidelberg Institute for Theoretical Studies"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "HITS",
+                                                "HITS gGmbH",
+                                                "Heidelberger Institut für Theoretische Studien"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.h-its.org/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:01f7bcy98",
+                                                "RRID:SCR_011279"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "KKS-Netzwerk e.V."
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "KKS Network",
+                                                "KKSN"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.kks-netzwerk.de/"
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Leibniz Institute for Prevention Research and Epidemiology - BIPS"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "BIPS",
+                                                "Leibniz-Institut für Präventionsforschung und Epidemiologie"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.bips-institut.de/en/home.html"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:02c22vc57"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Robert Koch Institute"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "RKI",
+                                                "Robert Koch Institut"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.rki.de/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:01k5qnb77",
+                                                "RRID:SCR_011500"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "University of Leipzig,Medical Faculty;  Institute for Medical Informatics, Statistics and Epidemiology"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "IMISE",
+                                                "Universität leipzig, Medizinische Fakultät,  Institut für Medizinische Informatik, Statistik und Epidemiologie"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.imise.uni-leipzig.de/en/homepage"
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Universitätsmedizin Greifswald"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "Universitätsmedizin Greifswald"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.medizin.uni-greifswald.de/de/home/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:025vngs54"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Universitätsmedizin Göttingen"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "UMG",
+                                                "University Medical Center Göttingen"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.umg.eu/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:021ft0n22"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
+                                        },
+                                        "responsibilityEndDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityEndDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2023-06-30"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "ZB MED — Information Centre for Life Sciences"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ZB MED - Informationszentrum Lebenswissenschaften"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general",
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.zbmed.de/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:0259fwx54"
+                                            ]
+                                        },
+                                        "responsibilityStartDate": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityStartDate",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "2020-07-01"
                                         }
                                     }
                                 ]
                             },
-                            "databaseLicense": {
-                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
                                     {
-                                        "databaseLicenseName": {
-                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "Data Protection"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.nfdi4health.de/en/data-protection.html"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    },
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataAccessRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "feeRequired"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "feeRequired"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "software": {
+                                "typeName": "MDS_fairagro.re3Data.software",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "softwareName": {
+                                            "typeName": "MDS_fairagro.re3Data.software.softwareName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Dataverse"
+                                        }
+                                    },
+                                    {
+                                        "softwareName": {
+                                            "typeName": "MDS_fairagro.re3Data.software.softwareName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "other"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "REST"
+                                        }
+                                    }
+                                ]
+                            },
+                            "metadataStandard": {
+                                "typeName": "MDS_fairagro.re3Data.metadataStandard",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "metadataStandardName": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DataCite Metadata Schema"
+                                        },
+                                        "metadataStandardURL": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "http://www.dcc.ac.uk/resources/metadata-standards/datacite-metadata-schema"
+                                        }
+                                    },
+                                    {
+                                        "metadataStandardName": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Dublin Core"
+                                        },
+                                        "metadataStandardURL": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "http://www.dcc.ac.uk/resources/metadata-standards/dublin-core"
+                                        }
+                                    },
+                                    {
+                                        "metadataStandardName": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "ISA-Tab"
+                                        },
+                                        "metadataStandardURL": {
+                                            "typeName": "MDS_fairagro.re3Data.metadataStandard.metadataStandardURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "http://www.dcc.ac.uk/resources/metadata-standards/isa-tab"
                                         }
                                     }
                                 ]
                             }
                         }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId060202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.fairagroData",
@@ -193,7 +1334,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "dataProvider, serviceProvider"
                                     },
                                     "complianceMeasures": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
@@ -205,7 +1346,11 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
                                         "multiple": true,
                                         "typeClass": "primitive",
-                                        "value": []
+                                        "value": [
+                                            "Plain text",
+                                            "Standard office documents",
+                                            "Structured text"
+                                        ]
                                     },
                                     "applicableRegulations": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
@@ -217,7 +1362,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "open"
                                     },
                                     "embargoPeriod": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
@@ -241,13 +1386,29 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.standards",
                                                 "multiple": true,
                                                 "typeClass": "compound",
-                                                "value": []
+                                                "value": [
+                                                    {
+                                                        "standard": "DataCite Metadata Schema",
+                                                        "version": "",
+                                                        "level": ""
+                                                    },
+                                                    {
+                                                        "standard": "Dublin Core",
+                                                        "version": "",
+                                                        "level": ""
+                                                    },
+                                                    {
+                                                        "standard": "ISA-Tab",
+                                                        "version": "",
+                                                        "level": ""
+                                                    }
+                                                ]
                                             },
                                             "interoperabilityLevel": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "None"
+                                                "value": "DOI"
                                             }
                                         }
                                     },
@@ -260,7 +1421,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "REST"
+                                                ]
                                             },
                                             "authenticationMethods": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
@@ -297,7 +1460,10 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "Dataverse",
+                                                    "other"
+                                                ]
                                             },
                                             "updateFrequency": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
@@ -366,7 +1532,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "no"
+                                                "value": "yes"
                                             },
                                             "authenticationType": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
@@ -378,7 +1544,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "yes"
+                                                "value": "no"
                                             },
                                             "dataAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
@@ -403,19 +1569,23 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "True"
+                                                ]
                                             },
                                             "qualifiedReferences": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "no"
+                                                "value": "yes"
                                             },
                                             "dataFormats": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "True"
+                                                ]
                                             },
                                             "apiAvailability": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
@@ -440,13 +1610,13 @@
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "na"
+                                                "value": "yes"
                                             },
                                             "communityStandards": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "no"
+                                                "value": "yes"
                                             },
                                             "documentationQuality": {
                                                 "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
@@ -533,12 +1703,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "typeName": "MDS_fairagro.identifier",
-                        "multiple": false,
-                        "typeClass": "primitive",
-                        "value": "RFId060202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.collections",

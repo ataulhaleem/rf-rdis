@@ -79,7 +79,7 @@
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "CC-BY-4.0"
                     }
                 ]
             },
@@ -166,7 +166,7 @@
                                             "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "CC-BY-4.0"
                                         }
                                     }
                                 ]
