@@ -20,20 +20,6 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Bundesministerium für Verkehr"
-                                },
-                                "authorAffiliation": {
-                                    "typeName": "authorAffiliation",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
-                                    "value": "DEU"
-                                }
-                            },
-                            {
-                                "authorName": {
-                                    "typeName": "authorName",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
                                     "value": "Deutscher Wetterdienst"
                                 },
                                 "authorAffiliation": {
@@ -119,7 +105,7 @@
                         "typeName": "distributionDate",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "2026-01-19"
+                        "value": "2026-06-17"
                     }
                 ]
             },
@@ -287,64 +273,13 @@
                                 "typeName": "MDS_fairagro.re3Data.lastUpdate",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "2026-01-19"
+                                "value": "2026-06-17"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
-                                    {
-                                        "institutionName": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "Bundesministerium für Verkehr"
-                                        },
-                                        "institutionAdditionalName": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "BMV",
-                                                "Federal Ministry for Transport"
-                                            ]
-                                        },
-                                        "institutionCountry": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "DEU"
-                                        },
-                                        "responsibilityType": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "funding"
-                                            ]
-                                        },
-                                        "institutionType": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "non-profit"
-                                        },
-                                        "institutionURL": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "https://www.bmv.de/DE/Home/home.html"
-                                        },
-                                        "institutionIdentifier": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "ROR:00e3ns026"
-                                            ]
-                                        }
-                                    },
                                     {
                                         "institutionName": {
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
@@ -385,7 +320,7 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "https://www.dwd.de/"
+                                            "value": "https://www.dwd.de"
                                         },
                                         "institutionIdentifier": {
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",

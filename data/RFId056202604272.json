@@ -62,7 +62,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Platform for uploading, browsing and analyzing immunological datasets in FAIR format (including AIRR-seq and flow cytometry data); provides metadata-guided submission, dataset exploration and analysis pipelines\r\n"
+                                    "value": "Platform for uploading, browsing and analyzing immunological datasets in FAIR format (including AIRR-seq and flow cytometry data); provides metadata-guided submission, dataset exploration and analysis pipelines\r"
                                 }
                             }
                         ]
@@ -113,7 +113,7 @@
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "Platform for uploading, browsing and analyzing immunological datasets in FAIR format (including AIRR-seq and flow cytometry data); provides metadata-guided submission, dataset exploration and analysis pipelines\r\n"
+                                "value": "Platform for uploading, browsing and analyzing immunological datasets in FAIR format (including AIRR-seq and flow cytometry data); provides metadata-guided submission, dataset exploration and analysis pipelines\r"
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",

@@ -20,13 +20,41 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "European Bioinformatics Institute"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "BioImage Archive"
+                                    "value": "GBR"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "European Molecular Biology Laboratory"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "AAA"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "UK Research and Innovation"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GBR"
                                 }
                             }
                         ]
@@ -41,13 +69,27 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "bioimage-archive"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
                                     "multiple": false,
                                     "typeClass": "primitive",
                                     "value": "bioimage-archive@ebi.ac.uk"
+                                }
+                            },
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "no-email-available"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "no-email-available@repository.net"
                                 }
                             }
                         ]
@@ -62,7 +104,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "The BioImage Archive is a foundational public repository for biological and biomedical imaging data. It accepts microscopy datasets of all scales linked to peer-reviewed publications—spanning from whole organism imaging down to the molecular level. It serves as a primary repository to help researchers meet data-sharing mandates from funders and publishers."
+                                    "value": "The BioImage Archive stores and distributes life sciences imaging datasets. It supports deposition of biological imaging data associated with publications for the whole research community, as well as reference imaging datasets. All data deposited to the BioImage Archive is made openly accessible to the scientific community."
                                 }
                             }
                         ]
@@ -72,14 +114,27 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
-                            "Medicine, Health and Life Sciences"
+                            "Medicine, Health and Life Sciences",
+                            "Other"
                         ]
                     },
                     {
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "productionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2019-07-02"
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-03-05"
                     }
                 ]
             },
@@ -95,7 +150,7 @@
                                 "typeName": "MDS_fairagro.re3Data.orgIdentifier",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "RFId051202604272"
+                                "value": "r3d100013949"
                             },
                             "repositoryName": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryName",
@@ -103,24 +158,69 @@
                                 "typeClass": "primitive",
                                 "value": "BioImage Archive"
                             },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "BIA"
+                                ]
+                            },
                             "repositoryURL": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryURL",
                                 "multiple": false,
                                 "typeClass": "primitive",
                                 "value": "https://www.ebi.ac.uk/bioimage-archive/"
                             },
+                            "repositoryIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryIdentifier",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "10.25504/FAIRsharing.x38D2k"
+                                ]
+                            },
                             "description": {
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "The BioImage Archive is a foundational public repository for biological and biomedical imaging data. It accepts microscopy datasets of all scales linked to peer-reviewed publications—spanning from whole organism imaging down to the molecular level. It serves as a primary repository to help researchers meet data-sharing mandates from funders and publishers."
+                                "value": "The BioImage Archive stores and distributes life sciences imaging datasets. It supports deposition of biological imaging data associated with publications for the whole research community, as well as reference imaging datasets. All data deposited to the BioImage Archive is made openly accessible to the scientific community."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "bioimage-archive@ebi.ac.uk",
+                                    "https://www.ebi.ac.uk/bioimage-archive/contact-us/"
+                                ]
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "unspecified"
+                                    "disciplinary"
+                                ]
+                            },
+                            "size": {
+                                "typeName": "MDS_fairagro.re3Data.size",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2.545 datasets"
+                            },
+                            "startDate": {
+                                "typeName": "MDS_fairagro.re3Data.startDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2019-07-02"
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
                                 ]
                             },
                             "subject": {
@@ -128,7 +228,38 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "Life Sciences"
+                                    "2 Life Sciences",
+                                    "201 Basic Biological and Medical Research",
+                                    "20103 Cell Biology",
+                                    "20106 Developmental Biology",
+                                    "20107 Bioinformatics and Theoretical Biology",
+                                    "21 Biology"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.ebi.ac.uk/bioimage-archive/scope/"
+                            },
+                            "contentType": {
+                                "typeName": "MDS_fairagro.re3Data.contentType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Archived data",
+                                    "Images",
+                                    "Raw data",
+                                    "Scientific and statistical data formats"
+                                ]
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider",
+                                    "serviceProvider"
                                 ]
                             },
                             "keyword": {
@@ -136,10 +267,55 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "NFDI4BIOIMAGE",
-                                    "Life Sciences",
-                                    "Life Sciences"
+                                    "FAIR",
+                                    "bioimaging",
+                                    "high-content screening",
+                                    "microscopy"
                                 ]
+                            },
+                            "pidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.pidSystem",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DOI"
+                                ]
+                            },
+                            "citationGuidelineURL": {
+                                "typeName": "MDS_fairagro.re3Data.citationGuidelineURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.ebi.ac.uk/bioimage-archive/help-faq/"
+                            },
+                            "aidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.aidSystem",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "ORCID"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2022-08-11"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2024-03-05"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -151,27 +327,358 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "EMBL-EBI (European Molecular Biology Laboratory - European Bioinformatics Institute)."
+                                            "value": "European Bioinformatics Institute"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "EMBL-EBI"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "GBR"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ebi.ac.uk/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:02catss52",
+                                                "RRID:SCR_004727"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "European Molecular Biology Laboratory"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "EMBL"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "AAA"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding",
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.embl.org/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:03mstc592",
+                                                "RRID:SCR_004473"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "UK Research and Innovation"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "UKRI"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "GBR"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ukri.org/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:001aqnf71"
+                                            ]
                                         }
                                     }
                                 ]
                             },
-                            "databaseLicense": {
-                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
                                     {
-                                        "databaseLicenseName": {
-                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "BioImage Archive Policies"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ebi.ac.uk/bioimage-archive/help-policies/"
+                                        }
+                                    },
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Image data submission policy"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ebi.ac.uk/bioimage-archive/help-images-at-ebi/"
+                                        }
+                                    },
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Terms of Use"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ebi.ac.uk/about/terms-of-use"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/licenses/by/4.0/"
+                                        }
+                                    },
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "registration"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUploadLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataUploadLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC-BY"
+                                        },
+                                        "dataUploadLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/licenses/by/4.0/"
+                                        }
+                                    },
+                                    {
+                                        "dataUploadLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC0"
+                                        },
+                                        "dataUploadLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "FTP"
+                                        }
+                                    },
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "other"
                                         }
                                     }
                                 ]
                             }
                         }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId051202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.fairagroData",
@@ -193,7 +700,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "dataProvider, serviceProvider"
                                     },
                                     "complianceMeasures": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
@@ -205,7 +712,12 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
                                         "multiple": true,
                                         "typeClass": "primitive",
-                                        "value": []
+                                        "value": [
+                                            "Archived data",
+                                            "Images",
+                                            "Raw data",
+                                            "Scientific and statistical data formats"
+                                        ]
                                     },
                                     "applicableRegulations": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
@@ -217,7 +729,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "open"
                                     },
                                     "embargoPeriod": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
@@ -247,7 +759,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "None"
+                                                "value": "DOI"
                                             }
                                         }
                                     },
@@ -260,7 +772,10 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "FTP",
+                                                    "other"
+                                                ]
                                             },
                                             "authenticationMethods": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
@@ -533,12 +1048,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "typeName": "MDS_fairagro.identifier",
-                        "multiple": false,
-                        "typeClass": "primitive",
-                        "value": "RFId051202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.collections",

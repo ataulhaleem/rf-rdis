@@ -20,13 +20,41 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "Dundee University"
                                 },
                                 "authorAffiliation": {
                                     "typeName": "authorAffiliation",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "Image Data Resource"
+                                    "value": "GBR"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "European Commission, Horizon 2020"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "EEC"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Open Microscopy Environment"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "AAA"
                                 }
                             }
                         ]
@@ -41,7 +69,7 @@
                                     "typeName": "datasetContactName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "unspecified"
+                                    "value": "idr"
                                 },
                                 "datasetContactEmail": {
                                     "typeName": "datasetContactEmail",
@@ -62,7 +90,7 @@
                                     "typeName": "dsDescriptionValue",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "The IDR is a highly curated public repository providing highly annotated, reference-grade biological image datasets from published scientific research. Unlike a general archive, the IDR integrates image data with detailed metadata describing experimental targets (such as genes, small molecules, or phenotypes), making it fully searchable and ideal for reuse in data mining or machine learning."
+                                    "value": "The IDR makes datasets that have never previously been accessible publicly available, allowing the community to search, view, mine and even process and analyze large, complex, multidimensional life sciences image data. Sharing data promotes the validation of experimental methods and scientific conclusions, the comparison with new data obtained by the global scientific community, and enables data reuse by developers of new analysis and processing tools."
                                 }
                             }
                         ]
@@ -72,14 +100,21 @@
                         "multiple": true,
                         "typeClass": "controlledVocabulary",
                         "value": [
-                            "Medicine, Health and Life Sciences"
+                            "Medicine, Health and Life Sciences",
+                            "Other"
                         ]
                     },
                     {
                         "typeName": "termsOfUse",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "unspecified"
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-07-17"
                     }
                 ]
             },
@@ -95,7 +130,7 @@
                                 "typeName": "MDS_fairagro.re3Data.orgIdentifier",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "RFId052202604272"
+                                "value": "r3d100012435"
                             },
                             "repositoryName": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryName",
@@ -103,24 +138,58 @@
                                 "typeClass": "primitive",
                                 "value": "Image Data Resource"
                             },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "IDR"
+                                ]
+                            },
                             "repositoryURL": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryURL",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "https://idr.openmicroscopy.org/"
+                                "value": "https://idr.openmicroscopy.org/about/"
+                            },
+                            "repositoryIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryIdentifier",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "10.25504/FAIRsharing.6wf1zw",
+                                    "OMICS_13850",
+                                    "SCR_017421"
+                                ]
                             },
                             "description": {
                                 "typeName": "MDS_fairagro.re3Data.description",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "The IDR is a highly curated public repository providing highly annotated, reference-grade biological image datasets from published scientific research. Unlike a general archive, the IDR integrates image data with detailed metadata describing experimental targets (such as genes, small molecules, or phenotypes), making it fully searchable and ideal for reuse in data mining or machine learning."
+                                "value": "The IDR makes datasets that have never previously been accessible publicly available, allowing the community to search, view, mine and even process and analyze large, complex, multidimensional life sciences image data. Sharing data promotes the validation of experimental methods and scientific conclusions, the comparison with new data obtained by the global scientific community, and enables data reuse by developers of new analysis and processing tools."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "idr@openmicroscopy.org"
+                                ]
                             },
                             "type": {
                                 "typeName": "MDS_fairagro.re3Data.type",
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "unspecified"
+                                    "disciplinary"
+                                ]
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
                                 ]
                             },
                             "subject": {
@@ -128,7 +197,36 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "Life Sciences"
+                                    "2 Life Sciences",
+                                    "201 Basic Biological and Medical Research",
+                                    "20103 Cell Biology",
+                                    "20105 General Genetics",
+                                    "205 Medicine",
+                                    "21 Biology",
+                                    "22 Medicine"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://idr.openmicroscopy.org/about/index.html"
+                            },
+                            "contentType": {
+                                "typeName": "MDS_fairagro.re3Data.contentType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Databases",
+                                    "Images"
+                                ]
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider"
                                 ]
                             },
                             "keyword": {
@@ -136,10 +234,56 @@
                                 "multiple": true,
                                 "typeClass": "primitive",
                                 "value": [
-                                    "NFDI4BIOIMAGE",
-                                    "Life Sciences",
-                                    "Life Sciences"
+                                    "bioimage",
+                                    "digital pathology",
+                                    "gene networks",
+                                    "high-content screening",
+                                    "multi-dimensional microscopy"
                                 ]
+                            },
+                            "pidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.pidSystem",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DOI"
+                                ]
+                            },
+                            "citationGuidelineURL": {
+                                "typeName": "MDS_fairagro.re3Data.citationGuidelineURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://idr.openmicroscopy.org/about/submission.html"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "remarks": {
+                                "typeName": "MDS_fairagro.re3Data.remarks",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "is covered by Elsevier."
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2017-08-10"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2024-07-17"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -151,27 +295,278 @@
                                             "typeName": "MDS_fairagro.re3Data.institution.institutionName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "University of Dundee and EMBL-EBI"
+                                            "value": "Dundee University"
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "GBR"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.dundee.ac.uk/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:03h2bxq36",
+                                                "RRID:SCR_000997"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "European Commission, Horizon 2020"
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "EEC"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en"
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Open Microscopy Environment"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "OME"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "AAA"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general",
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.openmicroscopy.org/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "RRID:SCR_008849",
+                                                "RRID:nlx_146268"
+                                            ]
                                         }
                                     }
                                 ]
                             },
-                            "databaseLicense": {
-                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
                                 "multiple": true,
                                 "typeClass": "compound",
                                 "value": [
                                     {
-                                        "databaseLicenseName": {
-                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "unspecified"
+                                            "value": "Euro&BioImaging!–!ELIXIR!Image!Data!Strategy"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.eurobioimaging.eu/upload/document_gallery/euro-bioimaging_elixir_image_data_strategy.pdf"
+                                        }
+                                    },
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Submission of datasets"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://idr.openmicroscopy.org/about/submission.html"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://creativecommons.org/licenses/by/4.0/"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "registration"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "software": {
+                                "typeName": "MDS_fairagro.re3Data.software",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "softwareName": {
+                                            "typeName": "MDS_fairagro.re3Data.software.softwareName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "other"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "other"
                                         }
                                     }
                                 ]
                             }
                         }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId052202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.fairagroData",
@@ -193,7 +588,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "dataProvider"
                                     },
                                     "complianceMeasures": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
@@ -205,7 +600,10 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
                                         "multiple": true,
                                         "typeClass": "primitive",
-                                        "value": []
+                                        "value": [
+                                            "Databases",
+                                            "Images"
+                                        ]
                                     },
                                     "applicableRegulations": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
@@ -217,7 +615,7 @@
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
                                         "multiple": false,
                                         "typeClass": "primitive",
-                                        "value": "Not specified"
+                                        "value": "open"
                                     },
                                     "embargoPeriod": {
                                         "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
@@ -247,7 +645,7 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
                                                 "multiple": false,
                                                 "typeClass": "primitive",
-                                                "value": "None"
+                                                "value": "DOI"
                                             }
                                         }
                                     },
@@ -260,7 +658,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "other"
+                                                ]
                                             },
                                             "authenticationMethods": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
@@ -297,7 +697,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "other"
+                                                ]
                                             },
                                             "updateFrequency": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
@@ -533,12 +935,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "typeName": "MDS_fairagro.identifier",
-                        "multiple": false,
-                        "typeClass": "primitive",
-                        "value": "RFId052202604272"
                     },
                     {
                         "typeName": "MDS_fairagro.collections",

@@ -48,20 +48,6 @@
                                     "typeName": "authorName",
                                     "multiple": false,
                                     "typeClass": "primitive",
-                                    "value": "National Research Council of Italy"
-                                },
-                                "authorAffiliation": {
-                                    "typeName": "authorAffiliation",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
-                                    "value": "ITA"
-                                }
-                            },
-                            {
-                                "authorName": {
-                                    "typeName": "authorName",
-                                    "multiple": false,
-                                    "typeClass": "primitive",
                                     "value": "University of Turin"
                                 },
                                 "authorAffiliation": {
@@ -148,7 +134,7 @@
                         "typeName": "distributionDate",
                         "multiple": false,
                         "typeClass": "primitive",
-                        "value": "2024-08-09"
+                        "value": "2026-06-10"
                     }
                 ]
             },
@@ -184,7 +170,7 @@
                                 "typeName": "MDS_fairagro.re3Data.repositoryURL",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "https://pidar.hpc4ai.unito.it/"
+                                "value": "https://pidar.hpc4ai.unito.it/Datasets/Index"
                             },
                             "repositoryIdentifier": {
                                 "typeName": "MDS_fairagro.re3Data.repositoryIdentifier",
@@ -222,7 +208,7 @@
                                 "typeName": "MDS_fairagro.re3Data.size",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "14 datasets; 308 subjects;  195 metadata"
+                                "value": "28 datasets; 601 subjects;  218 metadata"
                             },
                             "startDate": {
                                 "typeName": "MDS_fairagro.re3Data.startDate",
@@ -253,7 +239,7 @@
                                 "typeName": "MDS_fairagro.re3Data.missionStatementURL",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "https://pidar.hpc4ai.unito.it/about-us.php"
+                                "value": "https://pidar.hpc4ai.unito.it/Home/About"
                             },
                             "contentType": {
                                 "typeName": "MDS_fairagro.re3Data.contentType",
@@ -315,7 +301,7 @@
                                 "typeName": "MDS_fairagro.re3Data.lastUpdate",
                                 "multiple": false,
                                 "typeClass": "primitive",
-                                "value": "2024-08-09"
+                                "value": "2026-06-10"
                             },
                             "institution": {
                                 "typeName": "MDS_fairagro.re3Data.institution",
@@ -354,6 +340,14 @@
                                             "multiple": false,
                                             "typeClass": "primitive",
                                             "value": "https://www.eurobioimaging.eu/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:05d78xc36"
+                                            ]
                                         }
                                     },
                                     {
@@ -404,57 +398,6 @@
                                             "typeClass": "primitive",
                                             "value": [
                                                 "ROR:03rqtqb02"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "institutionName": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "National Research Council of Italy"
-                                        },
-                                        "institutionAdditionalName": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "CNR",
-                                                "Consiglio Nazionale delle Ricerche"
-                                            ]
-                                        },
-                                        "institutionCountry": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "ITA"
-                                        },
-                                        "responsibilityType": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "funding"
-                                            ]
-                                        },
-                                        "institutionType": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "non-profit"
-                                        },
-                                        "institutionURL": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
-                                            "multiple": false,
-                                            "typeClass": "primitive",
-                                            "value": "https://www.cnr.it"
-                                        },
-                                        "institutionIdentifier": {
-                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
-                                            "multiple": true,
-                                            "typeClass": "primitive",
-                                            "value": [
-                                                "ROR:04zaypm56"
                                             ]
                                         }
                                     },
@@ -527,7 +470,7 @@
                                             "typeName": "MDS_fairagro.re3Data.policy.policyURL",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "https://en.unito.it/legal-notes"
+                                            "value": "https://en.unito.it/university/legal-notes"
                                         }
                                     }
                                 ]
@@ -600,7 +543,7 @@
                                             "multiple": true,
                                             "typeClass": "primitive",
                                             "value": [
-                                                "other"
+                                                "registration"
                                             ]
                                         }
                                     }
@@ -622,7 +565,22 @@
                                             "typeName": "MDS_fairagro.re3Data.dataUploadLicense.dataUploadLicenseURL",
                                             "multiple": false,
                                             "typeClass": "primitive",
-                                            "value": "https://pidar.hpc4ai.unito.it/submit.php"
+                                            "value": "https://pidar.hpc4ai.unito.it/Home/Contribute"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "REST"
                                         }
                                     }
                                 ]
@@ -727,7 +685,9 @@
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
                                                 "multiple": true,
                                                 "typeClass": "primitive",
-                                                "value": []
+                                                "value": [
+                                                    "REST"
+                                                ]
                                             },
                                             "authenticationMethods": {
                                                 "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
